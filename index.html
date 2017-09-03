@@ -7,6 +7,44 @@
     <title>Document</title>
 </head>
 <body>
+   
+    <script src="scripts.js"></script>
+
+
+    let fname = prompt("Please enter in your first name", "First name")
+    alert (fname)
+
+    let lname = prompt("Please enter in your last name", "Last name")
+    alert (lname)
+
+
+
+
+
+    let timetable = prompt("What times table do you want to see?", "00")
     
+    for(let i = 0; i < 12; i++)
+
+    {
+        timetable = parseInt(timetable)
+
+        let a = i + 1
+        console.log(a + "x" +a* timetable + "=" + (a * timetable))
+    }
+
+
+
+    let number = 0
+    let counter = 5
+
+    for(let i = 0; i < counter; i++)
+    {
+        let answer = prompt("Please type in a number", "00")
+        number += parseInt(answer)
+    }
+    console.log("the total number is =" +number)
+    console.log("the average of the total is =" +number/counter)
+
+
 </body>
 </html>
